@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.casper.test.kid01.menuKid01">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenuKid01Previous"
+                android:textSize="18sp"
+                android:background="#AAAAAA" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.滿有能力"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD"
+                android:id="@+id/kid0101滿有能力" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.雲上太陽"
+                android:id="@+id/kid0102雲上太陽"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.小小的夢想"
+                android:id="@+id/kid0103小小的夢想"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.最深愛的主"
+                android:id="@+id/kid0104最深愛的主"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.天天讚美"
+                android:id="@+id/kid0105天天讚美"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.主的喜樂是我力量"
+                android:id="@+id/kid0106主的喜樂是我力量"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.Shaky Shaky Time"
+                android:id="@+id/kid0107ShakyShakyTime"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.讚美之泉"
+                android:id="@+id/kid0108讚美之泉"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.我要向高山舉目"
+                android:id="@+id/kid0109我要向高山舉目"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.晚安曲"
+                android:id="@+id/kid0110晚安曲"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

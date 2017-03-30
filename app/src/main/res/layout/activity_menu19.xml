@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.casper.test.streamOfPraise19.menu19">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenu19Previous"
+                android:background="#AAAAAA"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.這裡有榮耀"
+                android:id="@+id/song1901這裡有榮耀"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.我們歡迎君王降臨"
+                android:id="@+id/song1902我們歡迎君王降臨"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.極大的聲音"
+                android:id="@+id/song1903極大的聲音"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.更多充滿"
+                android:id="@+id/song1904更多充滿"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.從這代到那代"
+                android:id="@+id/song1905從這代到那代"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.愛中相遇"
+                android:id="@+id/song1906愛中相遇"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.以馬內利"
+                android:id="@+id/song1907以馬內利"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.永恆唯一的盼望"
+                android:id="@+id/song1908永恆唯一的盼望"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.主祢的疼"
+                android:id="@+id/song1909主祢的疼"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.謝謝祢"
+                android:id="@+id/song1910謝謝祢"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.大手牽著小手"
+                android:id="@+id/song1911大手牽著小手"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.耶和華大能的軍隊"
+                android:id="@+id/song1912耶和華大能的軍隊"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.我心唯一愛慕"
+                android:id="@+id/song1913我心唯一愛慕"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.順服"
+                android:id="@+id/song1914順服"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

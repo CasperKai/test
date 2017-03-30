@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">ChinShin</string>
+    <string name="Vrsion">VR1.0.0</string>
+
+    <string name="back">返回</string>
+    <string name="family">家庭誓盟</string>
+    <string name="youtube">Youtube</string>
+    <string name="home">回首頁</string>>
+
+    <string name="previous">上一條</string>
+    <string name="next">下一條</string>
+
+    <string name="youtubeImage">Youtube</string>
+    <string name="albumImage">Album</string>
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.casper.test.kid06.menuKid06">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView30"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenuKid06Previous"
+                android:textSize="18sp"
+                android:background="#AAAAAA" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.讚美的孩子最喜樂"
+                android:id="@+id/kid0601讚美的孩子最喜樂"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.我有喜樂"
+                android:id="@+id/kid0602我有喜樂"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.保護我的是耶和華"
+                android:id="@+id/kid0603保護我的是耶和華"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.喜樂&amp;自由"
+                android:id="@+id/kid0604喜樂自由"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.這裡有榮耀"
+                android:id="@+id/kid0605這裡有榮耀"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.震動天地"
+                android:id="@+id/kid0606震動天地"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.主祢是我力量"
+                android:id="@+id/kid0607主祢是我力量"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.何等恩典"
+                android:id="@+id/kid0608何等恩典"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.永遠愛祢"
+                android:id="@+id/kid0609永遠愛祢"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.愛 我願意"
+                android:id="@+id/kid0610愛我願意"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.我已得自由"
+                android:id="@+id/kid0611我已得自由"
+                android:textSize="18sp"
+                android:background="#DDDDDD"
+                android:gravity="center_vertical" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.我的家要榮耀主"
+                android:id="@+id/kid0612我的家要榮耀主"
+                android:textSize="18sp"
+                android:background="#FFFFFF"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

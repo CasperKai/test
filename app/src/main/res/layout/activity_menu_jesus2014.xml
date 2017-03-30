@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.casper.test.jesus2014.menuJesus2014">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView35" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenuJesus2014Previous"
+                android:textSize="18sp"
+                android:background="#AAAAAA" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.堅強的愛"
+                android:id="@+id/jesus1401堅強的愛"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.國度屬於你"
+                android:id="@+id/jesus1402國度屬於你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.你聖名"
+                android:id="@+id/jesus1403你聖名"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.SPIRIT BREAK OUT"
+                android:id="@+id/jesus1404SpiritBreakOut"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.用你雙手擁抱我"
+                android:id="@+id/jesus1405用你雙手擁抱我"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.我要愛慕你"
+                android:id="@+id/jesus1406我要愛慕你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.神偉大的舞池"
+                android:id="@+id/jesus1407神偉大的舞池"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.甦醒"
+                android:id="@+id/jesus1408甦醒"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.耶穌基督"
+                android:id="@+id/jesus1409耶穌基督"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.敬拜的心"
+                android:id="@+id/jesus1410敬拜的心"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.進城曲"
+                android:id="@+id/jesus1411進城曲"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.就是現在"
+                android:id="@+id/jesus1412就是現在"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

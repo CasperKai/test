@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".poemtry.menuPoemtry">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenuPoemtryPrevious"
+                android:background="#AAAAAA"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.相信有愛就有奇蹟"
+                android:id="@+id/poem001相信有愛就有奇蹟"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.愛可以再更多一點點"
+                android:id="@+id/poem002愛可以再更多一點點"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.為愛合一禱告"
+                android:id="@+id/poem003為愛合一禱告"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.掌上明珠"
+                android:id="@+id/poem004掌上明珠"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.禱告"
+                android:id="@+id/poem005禱告"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.雲上太陽"
+                android:id="@+id/poem006雲上太陽"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.把冷漠變成愛"
+                android:id="@+id/poem007把冷漠變成愛"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.讚美之泉"
+                android:id="@+id/poem008讚美之泉"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.常常喜樂"
+                android:id="@+id/poem009常常喜樂"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.主我跟祢走"
+                android:id="@+id/poem010主我跟祢走"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.凡事都能做"
+                android:id="@+id/poem011凡事都能做"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.轉化"
+                android:id="@+id/poem012轉化"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="13.喜樂泉源"
+                android:id="@+id/poem013喜樂泉源"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="14.煉淨我"
+                android:id="@+id/poem014煉淨我"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15.恩典夠用"
+                android:id="@+id/poem015恩典夠用"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16.認定你"
+                android:id="@+id/poem016認定你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="17.揀選"
+                android:id="@+id/poem017揀選"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18.齊為此地呼求"
+                android:id="@+id/poem018齊為此地呼求"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19.看見復興"
+                android:id="@+id/poem019看見復興"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20.讓愛走動"
+                android:id="@+id/poem020讓愛走動"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="21.生命之花"
+                android:id="@+id/poem021生命之花"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="22.我需要有你在我生命中"
+                android:id="@+id/poem022我需要有你在我生命中"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="23.這一生最美的祝福"
+                android:id="@+id/poem023這一生最美的祝福"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="24.奇異恩典"
+                android:id="@+id/poem024奇異恩典"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25.勇敢走出去"
+                android:id="@+id/poem025勇敢走出去"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="26.滿有能力"
+                android:id="@+id/poem026滿有能力"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="27.不要放棄"
+                android:id="@+id/poem027不要放棄"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="28.主禱文"
+                android:id="@+id/poem028主禱文"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="29.再一次"
+                android:id="@+id/poem029再一次"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30.單單只為你"
+                android:id="@+id/poem030單單只為你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="31.認識你真好"
+                android:id="@+id/poem031認識你真好"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="32.阿爸天父"
+                android:id="@+id/poem032阿爸天父"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="33.邁向新生命"
+                android:id="@+id/poem033邁向新生命"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="34.恩典之路"
+                android:id="@+id/poem034恩典之路"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="35.展開清晨的翅膀"
+                android:id="@+id/poem035展開清晨的翅膀"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="36.最珍貴的角落"
+                android:id="@+id/poem036最珍貴的角落"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="37.寶貴十架"
+                android:id="@+id/poem037寶貴十架"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="38.得釋放"
+                android:id="@+id/poem038得釋放"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="39.我要全心讚美"
+                android:id="@+id/poem039我要全心讚美"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="40.我們愛讓世界不一樣"
+                android:id="@+id/poem040我們愛讓世界不一樣"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="41.你愛永不變"
+                android:id="@+id/poem041你愛永不變"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="42.住在你裡面"
+                android:id="@+id/poem042住在你裡面"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="43.這世代"
+                android:id="@+id/poem043這世代"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="44.就是這個時刻"
+                android:id="@+id/poem044就是這個時刻"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="45.主我到你面前"
+                android:id="@+id/poem045主我到你面前"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="46.何等恩典"
+                android:id="@+id/poem046何等恩典"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="47.永遠"
+                android:id="@+id/poem047永遠"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="48.賜福與你"
+                android:id="@+id/poem048賜福與你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="49.請改變我"
+                android:id="@+id/poem049請改變我"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50.不能隔絕神的愛"
+                android:id="@+id/poem050不能隔絕神的愛"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="51.腳步"
+                android:id="@+id/poem051腳步"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="52.翻轉地球"
+                android:id="@+id/poem052翻轉地球"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="53.叫我抬起頭的神"
+                android:id="@+id/poem053叫我抬起頭的神"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="54.如果"
+                android:id="@+id/poem054如果"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="55.成為神蹟的器皿"
+                android:id="@+id/poem055成為神蹟的器皿"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="56.豐盛的應許"
+                android:id="@+id/poem056豐盛的應許"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="57.我要一心稱謝你"
+                android:id="@+id/poem057我要一心稱謝你"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="58.經歷你的大愛"
+                android:id="@+id/poem058經歷你的大愛"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="59.讓愛飛翔"
+                android:id="@+id/poem059讓愛飛翔"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60.你是配得"
+                android:id="@+id/poem060你是配得"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="61.尊貴全能神"
+                android:id="@+id/poem061尊貴全能神"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="62.一生跟隨你"
+                android:id="@+id/poem062一生跟隨你"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="63.救贖的恩典"
+                android:id="@+id/poem063救贖的恩典"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="64.願讚美充滿"
+                android:id="@+id/poem064願讚美充滿"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="65.求賜復興之火"
+                android:id="@+id/poem065求賜復興之火"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="66.從破碎到自由"
+                android:id="@+id/poem066從破碎到自由"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67.我獻上感謝"
+                android:id="@+id/poem067我獻上感謝"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="68.安靜"
+                android:id="@+id/poem068安靜"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="69.每天的禱告"
+                android:id="@+id/poem069每天的禱告"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="70.如鷹展翅上騰"
+                android:id="@+id/poem070如鷹展翅上騰"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="71.凡事都有可能"
+                android:id="@+id/poem071凡事都有可能"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="72.你愛不變"
+                android:id="@+id/poem072你愛不變"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="73.神偉大的舞池"
+                android:id="@+id/poem073神偉大的舞池"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="74.堅強的愛"
+                android:id="@+id/poem074堅強的愛"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="75.主你永遠與我同在"
+                android:id="@+id/poem075主你永遠與我同在"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="76.甦醒"
+                android:id="@+id/poem076甦醒"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="77.差遣我"
+                android:id="@+id/poem077差遣我"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="78.傾聽我的心"
+                android:id="@+id/poem078傾聽我的心"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="79.如果你想知道"
+                android:id="@+id/poem079如果你想知道"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="80.讓讚美飛揚"
+                android:id="@+id/poem080讓讚美飛揚"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="81.新造的人"
+                android:id="@+id/poem081新造的人"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="82.神的孩子"
+                android:id="@+id/poem082神的孩子"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="83.幸福"
+                android:id="@+id/poem083幸福"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="84.活出愛"
+                android:id="@+id/poem084活出愛"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="85.讓我"
+                android:id="@+id/poem085讓我"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="86.更好的你"
+                android:id="@+id/poem086更好的你"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="87.謙卑"
+                android:id="@+id/poem087謙卑"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="88.讚美中遇見你"
+                android:id="@+id/poem088讚美中遇見你"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="89.永遠的依靠"
+                android:id="@+id/poem089永遠的依靠"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:text="90.You Raise Me Up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/poem090YouRaiseMeUp"
+                android:background="#FFFFFF"
+                android:textSize="18sp"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

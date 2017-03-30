@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".streamOfPraise21.menu21">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="返回"
+                android:id="@+id/btnMenu21Previous"
+                android:textSize="18sp"
+                android:background="#AAAAAA" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.我要看見"
+                android:id="@+id/song2101我要看見"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.每一天我需要祢"
+                android:id="@+id/song2102每一天我需要祢"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.讓我得見祢的榮面"
+                android:id="@+id/song2103讓我得見祢的榮面"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.獻上尊榮"
+                android:id="@+id/song2104獻上尊榮"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.更深之處"
+                android:id="@+id/song2105更深之處"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.近前來"
+                android:id="@+id/song2106近前來"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7.行神蹟的神"
+                android:id="@+id/song2107行神蹟的神"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8.這是耶和華所定日子"
+                android:id="@+id/song2108這是耶和華所定日子"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9.這世代要呼求祢"
+                android:id="@+id/song2109這世代要呼求祢"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.在至高之處"
+                android:id="@+id/song2110在至高之處"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="11.為愛而生"
+                android:id="@+id/song2111為愛而生"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#DDDDDD" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12.祢必成就美好事"
+                android:id="@+id/song2112祢必成就美好事"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:background="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

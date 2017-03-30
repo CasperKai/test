@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.casper.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="android.security.net.config"
+            android:resource="@xml/network_security_config" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".streamOfPraise17.menu17" />
+        <activity android:name=".streamOfPraise18.menu18" />
+        <activity android:name=".streamOfPraise17.word17" />
+        <activity android:name=".streamOfPraise18.word18" />
+        <activity android:name=".streamOfPraise19.menu19" />
+        <activity android:name=".streamOfPraise19.word19" />
+        <activity android:name=".streamOfPraise20.menu20" />
+        <activity android:name=".streamOfPraise20.word20" />
+        <activity android:name=".streamOfPraise21.menu21" />
+        <activity android:name=".streamOfPraise21.word21" />
+        <activity android:name=".poemtry.menuPoemtry" />
+        <activity android:name=".poemtry.wordPoemtry" />
+        <activity android:name=".hollySong.menuHollySong" />
+        <activity android:name=".hollySong.wordHollySong" />
+        <activity android:name=".jesus2015.menuJesus2015" />
+        <activity android:name=".jesus2015.wordJesus2015" />
+        <activity android:name=".Search" />
+        <activity android:name=".kid01.menuKid01" />
+        <activity android:name=".kid01.wordKid01" />
+        <activity android:name=".kid02.menuKid02" />
+        <activity android:name=".kid02.wordKid02" />
+        <activity android:name=".kid03.menuKid03" />
+        <activity android:name=".kid03.wordKid03" />
+        <activity android:name=".kid04.menuKid04" />
+        <activity android:name=".kid04.wordKid04" />
+        <activity android:name=".kid05.menuKid05" />
+        <activity android:name=".kid05.wordKid05" />
+        <activity android:name=".kid06.menuKid06" />
+        <activity android:name=".kid06.wordKid06" />
+        <activity android:name=".kid07.menuKid07" />
+        <activity android:name=".kid07.wordKid07" />
+        <activity android:name=".jesus2014.menuJesus2014" />
+        <activity android:name=".jesus2014.wordJesus2014" />
+        <activity android:name=".jesus2013.menuJesus2013" />
+        <activity android:name=".jesus2013.wordJesus2013" />
+        <activity android:name=".jesus2012.menuJesus2012" />
+        <activity android:name=".jesus2012.wordJesus2012" />
+        <activity android:name=".goodSentance" />
+        <activity android:name=".FamilyArticle" />
+        <activity android:name=".WordView" />
+    </application>
+
+</manifest>
